@@ -1,0 +1,72 @@
+body{
+    font: 18px Aria;
+    background-color: rgb(203, 209, 206);
+}
+
+h1, p{
+    text-align: center;
+    margin: .5em auto;
+}
+
+
+label {
+    display: block;
+    margin: 1%;
+    
+}
+
+.tiempo{
+    display: inline-flex;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 80%;
+    min-width: 80%;
+    width: auto;
+    height: auto;
+    padding: 1rem 0;
+    padding-bottom: 2em;
+}
+fieldset{
+    border-bottom: 3px solid #bbbbc4;
+}
+
+fieldset:last-of-type{
+    border-bottom: none;
+}
+
+input, select, textarea{
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    min-height: 1.5em;
+}
+
+.inline{
+    width: unset;
+}
+
+input, textarea{
+    background-color: #f5f5f5;
+    border: 1px #f5f5f5;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 1.5em;
+    font-size: 1rem;
+    background-color: #0a0a23;
+    color:white;
+    border-color: #bbbbc4;
+    min-width: 300px;
+    
+}
+
+input[type="file"]{
+    padding: 1px 2px;
+}
